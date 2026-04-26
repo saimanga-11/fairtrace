@@ -1,0 +1,47 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+
+# Node / frontend artifacts
+node_modules/
+coverage/
+.vite/
+vite.svg
+frontend/dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated reports and temporary exports
+backend/generated_reports/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
